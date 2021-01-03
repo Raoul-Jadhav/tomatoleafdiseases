@@ -25,3 +25,5 @@ The model can be loaded as follows:
 <p>x = Flatten()(inception.output)</p>
 <p>prediction = Dense(len(folders),activation='softmax')(x)</p>
 <p>model = Model(inputs = inception.input, outputs = prediction)</p>
+
+<h4>The model is trained in google colab</h4>
