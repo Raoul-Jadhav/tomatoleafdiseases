@@ -6,7 +6,7 @@
   
 <h4>The advantages of transfer learning are that:</h4>
 <ul><li>There is no need of an extremely large training dataset.</li>
-<li>Not much computational power is required.As we are using pre-trained weights and only have to learn the weights of the last few layers.</li></ul>
+<li>Not much computational power is required. As we are using pre-trained weights and only have to learn the weights of the last few layers.</li></ul>
 
 
  <h3>The model used for classification is InceptionV3 
