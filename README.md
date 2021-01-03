@@ -14,16 +14,6 @@ There are several models that have been trained on the image net dataset and hav
   <p>The InceptionV3 is the third iteration of the inception architecture, first developed for the GoogLeNet model.</p>
   <p>This model was developed by researchers at Google and described in the 2015 paper titled “Rethinking the Inception Architecture for Computer Vision.”</p>
 The model can be loaded as follows:
-
-<p>import tensorflow as tf</p>
-<p>from tensorflow.keras.layers import Input, Dense, Flatten, Lambda</p>
-<p>from tensorflow.keras.models import Model</p>
-<p>from tensorflow.keras.applications.inception_v3 import InceptionV3</p>
-<p>from tensorflow.keras.applications.inception_v3 import preprocess_input</p>
-
-<p>inception = InceptionV3(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)</p>
-<p>x = Flatten()(inception.output)</p>
-<p>prediction = Dense(len(folders),activation='softmax')(x)</p>
-<p>model = Model(inputs = inception.input, outputs = prediction)</p>
+<img src="Screenshot.png" alt="">
 
 <h4>The model is trained in google colab</h4>
