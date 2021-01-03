@@ -13,3 +13,10 @@ There are several models that have been trained on the image net dataset and hav
  <h3>The model used for classification is InceptionV3 </h3>
   <p>The InceptionV3 is the third iteration of the inception architecture, first developed for the GoogLeNet model.</p>
   <p>This model was developed by researchers at Google and described in the 2015 paper titled “Rethinking the Inception Architecture for Computer Vision.”</p>
+The model can be loaded as follows:
+
+import tensorflow as tf
+from tensorflow.keras.layers import Input, Dense, Flatten, Lambda
+from tensorflow.keras.models import Model 
+from tensorflow.keras.applications.inception_v3 import InceptionV3
+from tensorflow.keras.applications.inception_v3 import preprocess_input
