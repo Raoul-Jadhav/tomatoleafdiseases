@@ -24,3 +24,4 @@ The model can be loaded as follows:
 <p>inception = InceptionV3(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)</p>
 <p>x = Flatten()(inception.output)</p>
 <p>prediction = Dense(len(folders),activation='softmax')(x)</p>
+<p>model = Model(inputs = inception.input, outputs = prediction)</p>
