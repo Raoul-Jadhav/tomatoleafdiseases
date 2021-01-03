@@ -1,4 +1,4 @@
-# Tomato Leaf Diseases Classification
+# Tomato Leaf Disease Classification
 
 # Transfer Learning:
   <h3>What Is Transfer Learning ?</h3>
