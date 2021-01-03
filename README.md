@@ -20,3 +20,7 @@ The model can be loaded as follows:
 <p>from tensorflow.keras.models import Model</p>
 <p>from tensorflow.keras.applications.inception_v3 import InceptionV3</p>
 <p>from tensorflow.keras.applications.inception_v3 import preprocess_input</p>
+
+<p>inception = InceptionV3(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)</p>
+<p>x = Flatten()(inception.output)</p>
+<p>prediction = Dense(len(folders),activation='softmax')(x)</p>
