@@ -15,8 +15,8 @@ There are several models that have been trained on the image net dataset and hav
   <p>This model was developed by researchers at Google and described in the 2015 paper titled “Rethinking the Inception Architecture for Computer Vision.”</p>
 The model can be loaded as follows:
 
-import tensorflow as tf
-from tensorflow.keras.layers import Input, Dense, Flatten, Lambda
-from tensorflow.keras.models import Model 
-from tensorflow.keras.applications.inception_v3 import InceptionV3
-from tensorflow.keras.applications.inception_v3 import preprocess_input
+<p>import tensorflow as tf</p>
+<p>from tensorflow.keras.layers import Input, Dense, Flatten, Lambda</p>
+<p>from tensorflow.keras.models import Model</p>
+<p>from tensorflow.keras.applications.inception_v3 import InceptionV3</p>
+<p>from tensorflow.keras.applications.inception_v3 import preprocess_input</p>
