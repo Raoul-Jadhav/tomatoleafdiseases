@@ -10,6 +10,6 @@
 
 There are several models that have been trained on the image net dataset and have been open sourced. For example, VGG-16, VGG-19, Inception-V3 etc.
 
- <h3>The model used for classification is InceptionV3 
+ <h3>The model used for classification is InceptionV3 </h3>
   <p>The InceptionV3 is the third iteration of the inception architecture, first developed for the GoogLeNet model.</p>
   <p>This model was developed by researchers at Google and described in the 2015 paper titled “Rethinking the Inception Architecture for Computer Vision.”</p>
