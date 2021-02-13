@@ -25,7 +25,7 @@ from werkzeug.utils import secure_filename
 app=Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'model_inceptionV3.h5'    # Assigning our model name to model path variable.
+MODEL_PATH = 'model_inception.h5'    # Assigning our model name to model path variable.
 
 # Loading Model
 model = load_model(MODEL_PATH)
